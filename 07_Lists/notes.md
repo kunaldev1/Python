@@ -1,0 +1,3 @@
+# Python Lists
+
+This folder contains my notes and practice programs for Lists in Python.
