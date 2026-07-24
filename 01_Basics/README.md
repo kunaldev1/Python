@@ -17,10 +17,10 @@ Python is a High-Level, programming language which helps us in creating websites
 5. Comments
 
 ## What I learned
--To write Python basic programs
--Variables in Python
--How to take user Input and then produce output
--Displaying output
+- To write Python basic programs
+- Variables in Python
+- How to take user Input and then produce output
+- Displaying output
 
 # Next Section/Topic
--->Data Types
+# --> Data Types
