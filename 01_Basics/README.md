@@ -4,10 +4,11 @@
 Python is a High-Level, programming language which helps us in creating websites, in AI Programming, machine learning, creating UI/UX and many more aspects. This section covers the core concept every beginner should know.
 
 ## Features of Python
--It is very simple and easy to learn.
+It is very simple and easy to learn.
 -It requires absolutely no knowledge of coding to understand it.
 -Its codes, programs, loops, and other concepts are as easy to understand and implement.
 -It is one of the most powerful programming language.
+-
 
 ## Topics
 1. Hello World
