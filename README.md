@@ -7,18 +7,18 @@ This repository documents my Python learning journey, from basic concepts to adv
 
 ## 📂 Repository Structure
 
-01_Basics
-02_Data_Types
-03_Operators
-04_Conditions
-05_Loops
-06_Functions
-07_Lists
-08_Tuples
-09_Dictionaries
-10_File_Handling
-11_OOP
-12_Projects
+01 _Basics
+02 _Data_Types
+03 _Operators
+04 _Conditions
+05 _Loops
+06 _Functions
+07 _Lists
+08 _Tuples
+09 _Dictionaries
+10 _File_Handling
+11 _OOP
+12 _Projects
 
 ## 🎯 Goal
 Build a strong foundation in Python while creating practical projects and sharing my progress.
