@@ -1,4 +1,4 @@
-# Python Basics
+# 📖Python Basics
 
 ## Introduction to Python
 Python is a High-Level, programming language which helps us in creating websites, in AI Programming, machine learning, creating UI/UX and many more aspects. This section covers the core concept every beginner should know.
