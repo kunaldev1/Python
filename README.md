@@ -80,7 +80,7 @@
 
 ###
 
-<img data-importer="snake" src="https://raw.githubusercontent.com/kunaldev1/kunaldev1/snake-output/snake.svg" alt="Snake animation" />
+<img data-importer="snake" align="right" height="150" src="[https://i.imgflip.com/65efzo.gif](https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.gif)"  />
 
 ###
 
