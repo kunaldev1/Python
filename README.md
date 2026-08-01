@@ -82,7 +82,7 @@
 
 <img data-importer="snake" align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
-
+npx generate-snake-animation@3 --forgejo_user codeberg.org/JasterV --output snake.svg?palette=codeberg
 ###
 
 <div data-importer="profile-views" align="center">
