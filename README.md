@@ -80,7 +80,7 @@
 
 ###
 
-<img data-importer="snake" align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+<img data-importer="snake" align="right" height="150" src="[https://i.imgflip.com/65efzo.gif](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg)"  />
 
 npx generate-snake-animation@3 --forgejo_user codeberg.org/JasterV --output snake.svg?palette=codeberg
 ###
