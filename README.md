@@ -82,67 +82,6 @@
 
 <img data-importer="snake" align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
 
-###
-
-<html>
-
-<head>
-    <title>Simulation - Scheduler</title>
-    <!-- DO NOT CHANGE THIS LINE OF CODE -->
-    <script src="./pacman.js"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-</head>
-
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="https://wdev2021.github.io/Portfolio/"><img src="https://github.com/WDev2021/Portfolio/blob/main/Pic.png?raw=true" height="30"> Home</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/salamanca10/" target="_blank"><img src="https://github.com/WDev2021/Portfolio/blob/main/linkedin.png?raw=true" height="30"> LinkedIn</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/WDev2021" target="_blank"><img src="https://github.com/WDev2021/Portfolio/blob/main/git.png?raw=true" height="30"> GitHub</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Projects
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="https://wdev2021.github.io/Pac-man/">PacMen Exercise</a></li>
-                <li><a class="dropdown-item" href="https://wdev2021.github.io/eyes/">Eye Exercise</a></li>
-                <li><a class="dropdown-item" href="https://wdev2021.github.io/Real-Time-Bus-Tracker/">Real Time Bus Tracking</a></li>
-                <!-- <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="https://github.com/WDev2021?tab=repositories">GitHub Repository</a></li> -->
-              </ul>
-            </li>
-            <!-- <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li> -->
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
-      </div>
-    </nav>
-
-    <img id="PacMan" src="PacMan1.png" width='200' onclick="Run()" style="position:absolute"> </img>
-
-        <!-- JavaScript Bundle with Popper -->
-        <script 
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
-    </script>
-</body>
-
-</html>
-
 
 ###
 
