@@ -26,7 +26,7 @@
 
 ###
 
-<h6 data-importer="text" align="left">✨ Creating bugs since the beginning of my coding journey — solving them with Python step by step  <br>📚 I'm currently learning Python development, automation, object-oriented programming, and backend concepts  <br>🎯 Goals: write cleaner Python code, build practical projects, and become a skilled software developer  <br>🎲 Fun fact: I love using Python to simplify boring or repetitive tasks</h6>
+<h6 data-importer="text" align="left">✨ Creating bugs since my first program <br> 📚 I'm currently learning HTML, Java, C, Python, and SQL <br> 🐍 Python is the language I enjoy the most, especially for problem-solving and building practical projects <br>🎯 Goals: master Python, improve my development skills, and create real-world applications <br>🎲 Fun fact: if a task can be simplified with code, I want to try it</h6>
 
 ###
 
