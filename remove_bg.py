@@ -1,75 +1,35 @@
 from io import BytesIO
 
+
 from PIL import Image
 from rembg import remove
-
-input_image = Image.open("Sharingan.jpg")
-
-output = remove(input_image)
-
-if isinstance(output, bytes):
-    output = Image.open(BytesIO(output))
-
-output.save("output_image.png")
-
-# Tree
-import turtle
-
-screen = turtle.Screen()
-screen.bgcolor("black")
-
-tree = turtle.Turtle()
-tree.speed(0)
-tree.color("brown")
-tree.left(90)
-tree.penup()
-tree.goto(0, -250)
-tree.pendown()
+import os
 
 
-def draw_tree(branch):
-    if branch < 5:
+def remove_background(input_path, output_path):
+    if not os.path.isfile(input_path):
+        print(f"Error: The file '{input_path}' does not exist.")
         return
-    tree.forward(branch)
 
-    tree.right(25)
-    draw_tree(branch * 0.75)
+    try:
+        input_image = Image.open(input_path)
+        output = remove(input_image)
 
-    tree.left(50)
-    draw_tree(branch * 0.75)
+        # Ensure output is an Image object
+        if isinstance(output, bytes):
+            output = Image.open(BytesIO(output))
+        elif isinstance(output, bytearray):
+            output = Image.open(BytesIO(output))
+        elif isinstance(output, memoryview):
+            output = Image.open(BytesIO(bytes(output)))
 
-    tree.right(25)
-    tree.backward(branch)
+        output.save(output_path)
+        print(f"Background removed and saved to {output_path}")
+    except Exception as e:
+        print(f"Error removing background: {e}")
 
 
-draw_tree(100)
-
-turtle.done()
-
-# R_P_S_Game
-import random
-
-items = ["rock", "paper", "scissors"]
-
-computer = random.choice(items)
-
-user = input("Enter rock, paper, or scissors: ").lower()
-
-print("Computer chooses:", computer)
-
-if user == computer:
-    print("It's a tie!")
-elif user == "rock" and computer == "scissors":
-    print("You win!")
-elif user == "paper" and computer == "rock":
-    print("You win!")
-elif user == "scissors" and computer == "paper":
-    print("You win!")
-elif computer == "rock" and user == "scissors":
-    print("Computer wins!")
-elif computer == "paper" and user == "rock":
-    print("Computer wins!")
-elif computer == "scissors" and user == "paper":
-    print("Computer wins!")
-else:
-    print("Invalid input. Please enter rock, paper, or scissors!!!")
+if __name__ == "__main__":
+    input_path = "Sharingan.jpg"
+    output_path = "output_image.png"
+    remove_background(input_path, output_path)
