@@ -2,6 +2,12 @@ import random
 
 
 def get_user_choice():
+    """
+    Prompts the user to enter their choice of rock, paper, or scissors.
+
+    Returns:
+        str: The user's choice.
+    """
     while True:
         user = input("Enter rock, paper, or scissors: ").lower()
         if user in ["rock", "paper", "scissors"]:
@@ -11,10 +17,26 @@ def get_user_choice():
 
 
 def get_computer_choice():
+    """
+    Returns a random choice of rock, paper, or scissors.
+
+    Returns:
+        str: The computer's choice.
+    """
     return random.choice(["rock", "paper", "scissors"])
 
 
 def determine_winner(user_choice, computer_choice):
+    """
+    Determines the winner of the Rock-Paper-Scissors game.
+
+    Args:
+        user_choice (str): The user's choice.
+        computer_choice (str): The computer's choice.
+
+    Returns:
+        str: The result of the game (win, tie, or loss).
+    """
     if user_choice == computer_choice:
         return "It's a tie!"
     elif (
@@ -28,6 +50,9 @@ def determine_winner(user_choice, computer_choice):
 
 
 def play_rps_game():
+    """
+    Plays the Rock-Paper-Scissors game.
+    """
     user_choice = get_user_choice()
     computer_choice = get_computer_choice()
     print("Computer chooses:", computer_choice)
