@@ -1,3 +1,9 @@
 from rich import print
 
-print("[bold green]Python environment is working.[/bold green]")
+
+def main():
+    print("[bold green]Python environment is working.[/bold green]")
+
+
+if __name__ == "__main__":
+    main()
