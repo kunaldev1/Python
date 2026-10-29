@@ -1,26 +1,74 @@
-# 📖Python Basics
+# Python Basics
 
-## Introduction to Python
-Python is a High-Level, programming language which helps us in creating websites, in AI Programming, machine learning, creating UI/UX and many more aspects. This section covers the core concept every beginner should know.
+This section introduces the basic building blocks used in nearly every Python program.
 
-## Features of Python
-- It is very simple and easy to learn.
-- It requires absolutely no knowledge of coding to understand it.
-- Its codes, programs, loops, and other concepts are as easy to understand and implement.
-- It is one of the most powerful programming language.
+## Learning objectives
 
-## Topics
-1. Hello World
-2. Variables
-3. User Input
-4. Print Function
-5. Comments
+By the end of this section, you should be able to:
 
-## What I learned
-- To write Python basic programs
-- Variables in Python
-- How to take user Input and then produce output
-- Displaying output
+- Run a Python script.
+- Store values in variables.
+- Read input from a user.
+- display output with `print()`.
+- Add comments to explain code.
 
-# Next Section/Topic
-# --> Data Types
+## Topics and examples
+
+### 1. Hello World
+
+```python
+print("Hello, world!")
+```
+
+Run a file from a terminal with `python 01_hello_world.py`.
+
+### 2. Variables
+
+Variables give names to values.
+
+```python
+name = "Kunal"
+age = 18
+print(name, age)
+```
+
+Use descriptive names such as `total_price` rather than vague names such as `x` when the meaning is not obvious.
+
+### 3. User input
+
+```python
+name = input("What is your name? ")
+print(f"Hello, {name}!")
+```
+
+`input()` returns text. Convert it when a number is required, for example `age = int(input("Age: "))`.
+
+### 4. Output
+
+Use `print()` to display values. f-strings are useful for inserting values into messages:
+
+```python
+language = "Python"
+print(f"I'm learning {language}.")
+```
+
+### 5. Comments
+
+Python ignores text after `#` on a line. Use comments to explain intent, not to repeat code that is already obvious.
+
+```python
+# Convert the user's input to an integer.
+quantity = int(input("Quantity: "))
+```
+
+## Practice exercises
+
+1. Print your name and one learning goal.
+2. Store two numbers in variables and print their sum.
+3. Ask for a user's name and greet them with an f-string.
+4. Ask for a birth year and calculate an approximate age.
+5. Add a comment explaining a non-obvious step in one of your programs.
+
+## Next step
+
+Continue to [Python Data Types](../02_Data_Types/notes.md).
