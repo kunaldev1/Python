@@ -14,7 +14,7 @@
 
 <br clear="both">
 
-<h6 data-importer="text" align="left">🙎  My name is Kunal Jha <br> 🧑🏼‍🎓 I'm a Student <br> 📌Location: Janakpur dham-04, Nepal.</h6>
+<h6 data-importer="text" align="left">🙎  My name is Kunal Jha <br> 🧑🏼‍🎓 I'm a Student <br></h6>
 
 ###
 
