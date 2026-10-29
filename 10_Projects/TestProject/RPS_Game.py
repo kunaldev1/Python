@@ -1,58 +1,46 @@
+"""Interactive Rock-Paper-Scissors game."""
+
 import random
+
+CHOICES = ("rock", "paper", "scissors")
 
 
 def get_user_choice():
-    """
-    Prompts the user to enter their choice of rock, paper, or scissors.
-
-    Returns:
-        str: The user's choice.
-    """
+    """Prompt until the user enters rock, paper, or scissors."""
     while True:
-        user = input("Enter rock, paper, or scissors: ").lower()
-        if user in ["rock", "paper", "scissors"]:
-            return user
-        else:
-            print("Invalid input. Please enter rock, paper, or scissors!!!")
+        user_choice = input("Enter rock, paper, or scissors: ").strip().lower()
+        if user_choice in CHOICES:
+            return user_choice
+        print("Invalid input. Please enter rock, paper, or scissors.")
 
 
 def get_computer_choice():
-    """
-    Returns a random choice of rock, paper, or scissors.
-
-    Returns:
-        str: The computer's choice.
-    """
-    return random.choice(["rock", "paper", "scissors"])
+    """Return a random valid choice for the computer."""
+    return random.choice(CHOICES)
 
 
 def determine_winner(user_choice, computer_choice):
-    """
-    Determines the winner of the Rock-Paper-Scissors game.
+    """Return the outcome message for two valid game choices.
 
-    Args:
-        user_choice (str): The user's choice.
-        computer_choice (str): The computer's choice.
-
-    Returns:
-        str: The result of the game (win, tie, or loss).
+    Raises:
+        ValueError: If either choice is not rock, paper, or scissors.
     """
+    if user_choice not in CHOICES or computer_choice not in CHOICES:
+        raise ValueError(f"Choices must be one of: {', '.join(CHOICES)}")
+
     if user_choice == computer_choice:
         return "It's a tie!"
-    elif (
+
+    user_wins = (
         (user_choice == "rock" and computer_choice == "scissors")
         or (user_choice == "paper" and computer_choice == "rock")
         or (user_choice == "scissors" and computer_choice == "paper")
-    ):
-        return "You win!"
-    else:
-        return "Computer wins!"
+    )
+    return "You win!" if user_wins else "Computer wins!"
 
 
 def play_rps_game():
-    """
-    Plays the Rock-Paper-Scissors game.
-    """
+    """Play one round of Rock-Paper-Scissors and print the result."""
     user_choice = get_user_choice()
     computer_choice = get_computer_choice()
     print("Computer chooses:", computer_choice)
