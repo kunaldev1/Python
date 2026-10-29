@@ -1,97 +1,49 @@
-<br clear="both">
+# Python Learning Repository
 
-<div data-importer="border">
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=egg&section=header&reversal=false&text=Welcome&fontSize=64&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&animation=scaleIn&descSize=21&descAlign=50&descAlignY=50&textBg=false&color=gradient"  />
-</div>
+A structured collection of Python notes, practice programs, and beginner projects. This repository documents my learning journey and provides a clear path through core Python concepts.
 
-###
+## Learning roadmap
 
-<br clear="both">
+Work through the numbered folders in order:
 
-<h1 data-importer="text" align="center">Hey 👋 What's up?</h1>
+| Section | Topics |
+| --- | --- |
+| [01 — Basics](01_Basics/README.md) | Running Python, variables, input, output, and comments |
+| [02 — Data Types](02_Data_Types/notes.md) | Numbers, strings, booleans, and type conversion |
+| [03 — Operations](03_Operations/notes.md) | Arithmetic, comparison, logical, and assignment operators |
+| [04 — Conditions](04_Conditions/notes.md) | `if`, `elif`, and `else` |
+| [05 — Loops](05_Loops/notes.md) | `for`, `while`, and loop control |
+| [06 — Functions](06_Functions/notes.md) | Parameters, return values, scope, and reusable code |
+| [07 — Lists](07_Lists/notes.md) | Creating, accessing, and modifying lists |
+| [08 — Tuples](08_Tuples/notes.md) | Immutable sequences and tuple unpacking |
+| [09 — Dictionaries](09_Dictionaries/notes.md) | Key-value data and dictionary operations |
+| [10 — Projects](10_Projects/README.md) | Small projects that combine concepts |
 
-###
+## Getting started
 
-<br clear="both">
+1. Install a supported version of Python 3.
+2. Clone or download this repository.
+3. Open a section folder and run a practice script with `python filename.py`.
+4. Read the notes, experiment with the examples, and complete the exercises.
 
-<h6 data-importer="text" align="left">🙎  My name is Kunal Jha <br> 🧑🏼‍🎓 I'm a Student <br></h6>
+Some projects use third-party packages. Check the README or dependency file inside a project before running it.
 
-###
+## Projects
 
-<h2 data-importer="text" align="left">About me</h2>
+The [projects directory](10_Projects/README.md) contains standalone programs. For example, [TestProject](10_Projects/TestProject/README.md) includes a Rock-Paper-Scissors game, a turtle graphics tree, a Rich output demo, and a background-removal script.
 
-###
+## Tools and technologies
 
-<img data-importer="image" align="right" height="150" src="https://i.imgflip.com/65efzo.gif"  />
+- Python
+- Git and GitHub
+- VS Code
 
-###
+## About
 
-<h6 data-importer="text" align="left">✨ Creating bugs since my first program <br> 📚 I'm currently learning HTML, Java, C, Python, and SQL <br> 🐍 Python is the language I enjoy the most, especially for problem-solving and building practical projects <br>🎯 Goals: master Python, improve my development skills, and create real-world applications <br>🎲 Fun fact: if a task can be simplified with code, I want to try it</h6>
+I'm Kunal Jha, a student learning Python and other development technologies. I enjoy problem-solving and building practical projects while improving my programming fundamentals.
 
-###
+- [LinkedIn](https://www.linkedin.com/in/kunal-jha-698647370/)
 
-<h2 data-importer="text" align="left">I code with</h2>
+## Learning approach
 
-###
-
-<br clear="both">
-
-<div data-importer="techs" align="center">
-  <img src="https://cdn.simpleicons.org/python/3776AB" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=c" height="40" alt="c logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/html5/E34F26" height="40" alt="html5 logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" alt="css logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=js" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=java" height="40" alt="java logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/mysql/4479A1" height="40" alt="mysql logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=php" height="40" alt="php logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=nodejs" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=react" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=blender" height="40" alt="blender logo"  />
-  <img width="12" />
-  <img src="https://skillicons.dev/icons?i=ai" height="40" alt="adobeillustrator logo"  />
-</div>
-
-###
-
-<h2 data-importer="text" align="left">Social Media Links</h2>
-
-###
-
-<br clear="both">
-
-<div data-importer="socials" align="left">
-  <a href="https://www.linkedin.com/in/kunal-jha-698647370/" target="_blank">
-    <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
-  </a>
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/facebook/default.svg" width="52" height="40" alt="facebook logo"  />
-  <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/telegram/default.svg" width="52" height="40" alt="telegram logo"  />
-</div>
-
-###
-
-<img data-importer="snake" align="right" height="150" src="[[https://i.imgflip.com/65efzo.gif](https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg)](https://private-user-images.githubusercontent.com/74038190/240906093-9be4d344-6782-461a-b5a6-32a07bf7b34e.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3ODU1ODM4NjAsIm5iZiI6MTc4NTU4MzU2MCwicGF0aCI6Ii83NDAzODE5MC8yNDA5MDYwOTMtOWJlNGQzNDQtNjc4Mi00NjFhLWI1YTYtMzJhMDdiZjdiMzRlLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjA4MDElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYwODAxVDExMjYwMFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBiNmY4NzcxMDIzYmMzOTNlN2Y3YTQ5MjUzYWVjMDJiMjQ4NzBkZmI1NWY5OWFmYTRjNGZjNjY5YTc1OTExNTAmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmdpZiJ9.rW-gTiNpS8bGrj28wwAfAl4RQVCD0FtVibBhV-EP5s8)"  />
-
-###
-
-<div data-importer="profile-views" align="center">
-  <img data-importer="profile-views" src="https://visitor-badge.laobi.icu/badge?page_id=kunaldev1.kunaldev1&"  />
-</div>
-
-###
-
-<div data-importer="border">
-  <img style="100%" src="https://capsule-render.vercel.app/api?type=egg&height=100&section=footer&reversal=true&fontSize=70&fontColor=FFFFFF&fontAlign=50&fontAlignY=50&stroke=-&descSize=20&descAlign=50&descAlignY=50&textBg=false&color=gradient"  />
-</div>
-
-###
+This is a learning repository, so examples may evolve as I improve them. Suggestions that make the explanations clearer or the code easier to understand are welcome.
